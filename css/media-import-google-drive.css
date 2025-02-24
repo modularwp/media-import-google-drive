@@ -1,0 +1,84 @@
+/* Override Google Picker z-index to ensure it's above WP modals */
+.picker.picker-dialog {
+    z-index: 999999 !important;
+}
+
+.picker.picker-dialog-bg {
+    z-index: 999998 !important;
+}
+
+.media-import-google-drive-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.media-import-google-drive-intro {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.media-import-google-drive-intro h2 {
+    margin-bottom: 1em;
+}
+
+.media-import-google-drive-intro p {
+    font-size: 14px;
+    margin-bottom: 2em;
+}
+
+.media-import-google-drive-select {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Add the unique styles from google-drive.css */
+.media-import-google-drive-selected {
+    margin-top: 40px;
+    display: none;
+}
+
+.media-import-google-drive-selected.has-files {
+    display: block;
+}
+
+/* Settings page styles */
+.google-drive-setup-instructions ol {
+    margin-left: 20px;
+}
+
+.google-drive-setup-instructions ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.google-drive-setup-instructions ul ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.google-drive-setup-instructions li {
+    margin-bottom: 10px;
+}
+
+.google-drive-setup-instructions h3 {
+    margin: 0.5em 0;
+}
+
+.google-drive-show-instructions {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.google-drive-setup-instructions {
+    margin-top: 15px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left: 4px solid #646970;
+}
+
+.google-drive-setup-instructions h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+} 
